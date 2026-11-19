@@ -6,7 +6,7 @@
 
 *PhiP-G: Physics-Guided Text-to-3D Compositional Scene Generation*
 
-On the demo homepage, drag to orbit the live scene, rerun the layout, or download the textured GLB. The gallery below the live demo offers archived views of the chair ablation and face-to-face bedroom comparison.
+On the demo homepage, drag to orbit the live scene, rerun the layout, or download the textured GLB. The gallery below the live demo offers two live WebGL viewers using the assembled 3D archives for the chair ablation and face-to-face bedroom comparison.
 
 ## Review release
 
@@ -23,7 +23,7 @@ Extract the download and open `index.html` in a modern browser. Alternatively, u
 | File | Purpose |
 |---|---|
 | `index.html` | Interactive homepage with the live demo and gallery |
-| `gallery.html` | Standalone multi-view gallery |
+| `gallery.html` | Live 3D viewers for two assembled scenes |
 | `demo/` | Browser and command-line test package |
 | `PhiP-G-demo.zip` | Offline download |
 
