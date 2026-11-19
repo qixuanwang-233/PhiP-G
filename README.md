@@ -1,12 +1,12 @@
-# PhiP-G Demo
+# PhiP-G
 
-**[Launch the interactive demo](https://qixuanwang-233.github.io/phip-g-demo/)** · [Explore the scene gallery](https://qixuanwang-233.github.io/phip-g-demo/#gallery) · [Download the offline package](https://qixuanwang-233.github.io/phip-g-demo/PhiP-G-demo.zip)
+**[Launch the interactive demo](https://qixuanwang-233.github.io/PhiP-G/)** · [Explore the scene gallery](https://qixuanwang-233.github.io/PhiP-G/#gallery) · [Download the offline package](https://qixuanwang-233.github.io/PhiP-G/PhiP-G-demo.zip)
 
-[![Open the interactive 3D scene](./preview.jpg)](https://qixuanwang-233.github.io/phip-g-demo/)
+[![Open the interactive 3D scene](./preview.jpg)](https://qixuanwang-233.github.io/PhiP-G/)
 
 *PhiP-G: Physics-Guided Text-to-3D Compositional Scene Generation*
 
-On the demo homepage, drag to orbit the live scene, rerun the layout, or download the textured GLB. The gallery below the live demo offers turntable views of three archived results.
+On the demo homepage, drag to orbit the live scene, rerun the layout, or download the textured GLB. The gallery below the live demo offers archived views of the chair ablation and face-to-face bedroom comparison.
 
 ## Review release
 
@@ -26,3 +26,5 @@ Extract the download and open `index.html` in a modern browser. Alternatively, u
 | `gallery.html` | Standalone multi-view gallery |
 | `demo/` | Browser and command-line test package |
 | `PhiP-G-demo.zip` | Offline download |
+
+The grass comes from the project’s Blender hair-particle function. For portable rendering, the 50,000 evaluated strands are baked as tapered mesh ribbons.

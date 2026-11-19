@@ -68,13 +68,13 @@
     const trunk = tree.filter(p => p[1] < bounds.Bicycle.max[1]);
     const crown = tree.filter(p => p[1] > height - bounds.Bird.max[1]);
     const translations = {
-      Ground: [0, 0, 0], Tree: [0, 0, 0],
+      Grass: [0, 0, 0], Ground: [0, 0, 0], Tree: [0, 0, 0],
       Bicycle: contact(parts.hulls.Bicycle, trunk, [0.52, 0, -0.12], true),
       Bench: [bounds.Tree.min[0] - 0.55, 0, bounds.Tree.max[2] + 0.17],
       Bird: contact(parts.hulls.Bird, crown, [0, height + 0.05, 0], false)
     };
     for (const node of model.nodes) node.translation = translations[node.name];
-    model.scenes[0].name = 'PhiP-G Demo';
+    model.scenes[0].name = 'PhiP-G';
     model.asset.generator = 'PhiP-G fixed-scene layout demo';
     return { model, binary: parts.binary, glb: encode(model, parts.binary) };
   }
