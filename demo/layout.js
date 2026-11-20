@@ -1,7 +1,7 @@
 /* Fixed-scene layout demo. Runs in a browser or Node.js, with no libraries. */
 (function () {
   'use strict';
-  const prompt = 'A bicycle leans against the trunk, a bench stands nearby, and a bird perches on the canopy.';
+  const prompt = 'A bicycle is leaning against a tree, a bench is next to the tree, and a bird is standing on the tree';
 
   function decode(bytes) {
     const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
